@@ -1,2 +1,2 @@
-recursive-include src/sample_site/rest_api/ *
+recursive-include src/sample_site/rest_api *
 include LICENSE
