@@ -7,10 +7,11 @@ except ImportError:
     from setuptools import setup
 
 setup(
-    name='django_tastycake',
+    name='django-tastycake',
     version='1.0.0',
     author=u'Charles Hathaway',
     author_email='chathaway@logrit.com',
+    package_dir = {'':'src/sample_site/'}
     packages=['tastycake'],
     url='https://github.com/chuck211991/django_tastycake',
     license='BSD license, see LICENCE.txt',
