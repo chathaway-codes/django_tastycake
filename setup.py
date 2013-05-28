@@ -1,14 +1,10 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-try:
-    from setuptools import setup
-except ImportError:
-    from ez_setup import use_setuptools
-    use_setuptools()
-    from setuptools import setup
+from distutils.core import setup
 
 setup(
     name='django-tastycake',
-    version='1.0.0',
+    version='1.0',
     author=u'Charles Hathaway',
     author_email='chathaway@logrit.com',
     package_dir = {'':'src/sample_site/'}
