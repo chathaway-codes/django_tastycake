@@ -2,14 +2,14 @@
 from distutils.core import setup
 
 setup(
-    name='app_name',
-    version='1.0.0',
-    author=u'Your name',
-    author_email='Your email',
-    packages=['app_name,packages provided'],
-    url='Home page url',
-    license='BSD licence, see LICENCE.txt',
-    description='Description',
+    name='django_tastycake',
+    version='0.0.5',
+    author=u'Charles Hathaway',
+    author_email='chathaway@logrit.com',
+    packages=['tastycake'],
+    url='https://github.com/chuck211991/django_tastycake',
+    license='BSD license, see LICENCE.txt',
+    description='Adds some simplicity and compatibility to django-tastypie',
     zip_safe=False,
     include_package_data=True,
 )
