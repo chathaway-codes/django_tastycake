@@ -8,7 +8,7 @@ except ImportError:
 
 setup(
     name='django_tastycake',
-    version='0.0.5',
+    version='1.0.0',
     author=u'Charles Hathaway',
     author_email='chathaway@logrit.com',
     packages=['tastycake'],
