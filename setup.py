@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 from distutils.core import setup
 
+this should cause an error
+
 setup(
     name='django-tastycake',
     version='1.0',
