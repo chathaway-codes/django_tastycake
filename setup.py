@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='django-tastycake',
-    version='1.0',
+    version='0.1.0',
     author=u'Charles Hathaway',
     author_email='chathaway@logrit.com',
     package_dir = {'':'src/sample_site/'},
