@@ -12,7 +12,7 @@ setup(
     requires=[
         'django_tastypie',
     ],
-    install_require=[
+    install_requires=[
         'django_tastypie',
     ],
     url='https://github.com/chuck211991/django_tastycake',
