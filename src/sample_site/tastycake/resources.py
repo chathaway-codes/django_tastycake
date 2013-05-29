@@ -1,5 +1,5 @@
 from tastypie.resources import ModelResource as def_ModelResource
-from rest_api.authentication import SessionAuthentication
+from tastycake.authentication import SessionAuthentication
 from tastypie.authorization import DjangoAuthorization
 
 class ModelMeta:
